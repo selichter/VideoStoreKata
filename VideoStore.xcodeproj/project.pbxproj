@@ -55,6 +55,7 @@
 		DFB5BCD92307A2AE007E7015 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		DFB5BCDB2307A2DB007E7015 /* Rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
 		DFB5BCDD2307A8F1007E7015 /* PriceCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCode.swift; sourceTree = "<group>"; };
+		DFB5BCDF2307ACE0007E7015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				DFB5BCD92307A2AE007E7015 /* Movie.swift */,
 				DFB5BCDB2307A2DB007E7015 /* Rental.swift */,
 				DFB5BCDD2307A8F1007E7015 /* PriceCode.swift */,
+				DFB5BCDF2307ACE0007E7015 /* README.md */,
 			);
 			path = VideoStore;
 			sourceTree = "<group>";

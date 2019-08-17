@@ -8,21 +8,20 @@
 
 import Foundation
 
-public class Customer {
+class Customer {
     
-    public var name:String
-    private var rentals:Array<Rental> = []
+    var name:String
+    private var rentals: Array<Rental> = []
     
-    public init(name:String) {
+    init(name:String) {
         self.name = name
     }
     
-    public func add(rental:Rental) {
+    func add(rental:Rental) {
         rentals.append(rental)
     }
     
-    public func statement() -> String {
-        
+    func statement() -> String {
         var totalAmount:Double = 0
         var frequentRenterPoints:Int = 0
         var result:String = "Rental Record for \(name)\n"
