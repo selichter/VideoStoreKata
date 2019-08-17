@@ -14,6 +14,10 @@
 		DFB5BCB42307A25E007E7015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB5BCB22307A25E007E7015 /* LaunchScreen.storyboard */; };
 		DFB5BCBF2307A25F007E7015 /* VideoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCBE2307A25F007E7015 /* VideoStoreTests.swift */; };
 		DFB5BCCA2307A25F007E7015 /* VideoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCC92307A25F007E7015 /* VideoStoreUITests.swift */; };
+		DFB5BCD82307A289007E7015 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCD72307A289007E7015 /* Customer.swift */; };
+		DFB5BCDA2307A2AE007E7015 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCD92307A2AE007E7015 /* Movie.swift */; };
+		DFB5BCDC2307A2DB007E7015 /* Rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCDB2307A2DB007E7015 /* Rental.swift */; };
+		DFB5BCDE2307A8F1007E7015 /* PriceCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5BCDD2307A8F1007E7015 /* PriceCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		DFB5BCC52307A25F007E7015 /* VideoStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB5BCC92307A25F007E7015 /* VideoStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStoreUITests.swift; sourceTree = "<group>"; };
 		DFB5BCCB2307A25F007E7015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB5BCD72307A289007E7015 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DFB5BCD92307A2AE007E7015 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DFB5BCDB2307A2DB007E7015 /* Rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
+		DFB5BCDD2307A8F1007E7015 /* PriceCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				DFB5BCB02307A25E007E7015 /* Assets.xcassets */,
 				DFB5BCB22307A25E007E7015 /* LaunchScreen.storyboard */,
 				DFB5BCB52307A25E007E7015 /* Info.plist */,
+				DFB5BCD72307A289007E7015 /* Customer.swift */,
+				DFB5BCD92307A2AE007E7015 /* Movie.swift */,
+				DFB5BCDB2307A2DB007E7015 /* Rental.swift */,
+				DFB5BCDD2307A8F1007E7015 /* PriceCode.swift */,
 			);
 			path = VideoStore;
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB5BCDE2307A8F1007E7015 /* PriceCode.swift in Sources */,
+				DFB5BCDC2307A2DB007E7015 /* Rental.swift in Sources */,
+				DFB5BCD82307A289007E7015 /* Customer.swift in Sources */,
 				DFB5BCAC2307A25C007E7015 /* ViewController.swift in Sources */,
+				DFB5BCDA2307A2AE007E7015 /* Movie.swift in Sources */,
 				DFB5BCAA2307A25C007E7015 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
