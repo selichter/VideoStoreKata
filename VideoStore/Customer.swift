@@ -10,10 +10,10 @@ import Foundation
 
 class Customer {
     
-    var name:String
-    private var rentals: Array<Rental> = []
+    var name: String
+    var rentals: Array<Rental> = []
     
-    init(name:String) {
+    init(name: String) {
         self.name = name
     }
     
@@ -22,9 +22,9 @@ class Customer {
     }
     
     func statement() -> String {
-        var totalAmount:Double = 0
-        var frequentRenterPoints:Int = 0
-        var result:String = "Rental Record for \(name)\n"
+        var totalAmount: Double = 0
+        var frequentRenterPoints: Int = 0
+        var result: String = "Rental Record for \(name)\n"
         
         for item in rentals {
             
@@ -65,4 +65,5 @@ class Customer {
         
         return result
     }
+    
 }

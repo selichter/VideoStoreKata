@@ -9,11 +9,10 @@
 import Foundation
 
 class Rental {
+    var movie: Movie
+    var daysRented: Int
     
-    public private(set) var movie:Movie
-    var daysRented:Int
-    
-    init(movie:Movie, daysRented:Int) {
+    init(movie: Movie, daysRented: Int) {
         self.movie = movie
         self.daysRented = daysRented
     }
